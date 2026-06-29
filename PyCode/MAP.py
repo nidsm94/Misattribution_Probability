@@ -10,7 +10,7 @@ class Agent:
                  true_cooperation,
                  initial_doubt=5.0,
                  egocentricity=2.0,
-                 misattribution_prob=0.0,
+                 misattribution_prob=0.8,
                  doubt_step=0.2):
 
         self.id = agent_id
@@ -36,7 +36,7 @@ class Agent:
 
         if not misattribute:
 
-            # Normal learning
+            # Normal learning 
             if success:
                 self.doubt -= self.c
             else:
