@@ -6,7 +6,7 @@ Misattribution model – sweep μ from 0 to 1 and compared against the Normal Ad
 The output contains four graphs:
 
 Graph 1: Normal behaviour (doubt vs interactions)
-Observations: With Succesful interactions doubt decreases.
+Observations: With Succesful   interactions doubt decreases.
 Graph 2: Misattribution behaviour for μ = 0, 0.2, 0.5, 0.8, 1.0
 Observations: Misattribution Probability is included - m<0.5 - m=0.0, 0.2 - Agents learns mostly correctly, doubt decreases, confidence increases similar to AAMAS 19
 m=0.5 - Agents is correct half the time and wrong half the time, doubt increases randomly
